@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:outlineSpotShadowColor="@color/purple_500">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC-TAC-TOE"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="  X | O | O "
+        android:textColor="@color/teal_200"
+        android:background="@color/teal_700"
+        android:textColorHighlight="@color/purple_500"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/teal_200"
+        android:layout_marginTop="0dp"
+        android:text="  O | X |  "
+        android:background="@color/teal_700"
+        android:textColorHighlight="@color/purple_500"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/teal_200"
+        android:background="@color/teal_700"
+        android:text="  O | X | X "
+        android:textColorHighlight="@color/purple_500"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/letsplayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:text="LET'S PLAY"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
